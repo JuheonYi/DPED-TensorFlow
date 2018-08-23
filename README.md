@@ -19,7 +19,7 @@ I had some difficulties reproducing the result when training with the same netwo
    - In "./checkpoints/" directory (currently I saved only models for "iphone" and "sony")
 3. Visual result (more examples in "./samples/iphone/image/" directory)
 
-![Example result](https://github.com/JuheonYi/EDSR-Tensorflow/blob/master/example.PNG)
+![Example result](https://github.com/JuheonYi/DPED-Tensorflow/blob/master/example.PNG)
 
 ## **Codes I referenced for implementation**
 1. Overall code structure 
@@ -29,7 +29,6 @@ I had some difficulties reproducing the result when training with the same netwo
 
 2. GAN implementation 
    - My own codes for SNU M2177.003100 "Deep Learning" Fall 2017 (lecturer: Prof. Sungroh Yoon) Assignment #5 - deep convolutional GAN
-     (code in "./referenced_codes/" directory)
      
 3. Pretrained VGG for computing content loss
    - TensorFlow tutorial code on image style transfer using VGG16 network
