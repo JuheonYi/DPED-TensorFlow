@@ -21,21 +21,13 @@ I had some difficulties reproducing the result when training with the same netwo
 
 ![Example result](https://github.com/JuheonYi/DPED-Tensorflow/blob/master/example.PNG)
 
-## **Codes I referenced for implementation**
-1. Overall code structure 
-   - My own codes for image/video super resolution 
-     - https://github.com/JuheonYi/VESPCN-tensorflow
-     - https://github.com/JuheonYi/ESPCN-TensorFlow
-
-2. GAN implementation 
-   - My own codes for SNU M2177.003100 "Deep Learning" Fall 2017 (lecturer: Prof. Sungroh Yoon) Assignment #5 - deep convolutional GAN
-     
-3. Pretrained VGG for computing content loss
+## **Codes I referenced for implementation** 
+1. Pretrained VGG for computing content loss
    - TensorFlow tutorial code on image style transfer using VGG16 network
       - https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/15_Style_Transfer.ipynb
-   - Code & pretrained model provided by the original authors of the paper (referenced it due to lack of time and memory to train VGG19 network myself)
+   - Code & pretrained model provided by the original authors of the paper
       - https://github.com/aiff22/DPED/blob/master/vgg.py
-4. Gaussian blurring for computing color loss
+2. Gaussian blurring for computing color loss
    - https://github.com/antonilo/TensBlur/blob/master/smoother.py
 
 
